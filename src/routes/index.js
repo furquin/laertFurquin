@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import BackEnd from '../pages/backEnd'
 import FrontEnd from '../pages/frontEnd'
 import HomePage from '../pages/homePage';
-import Agradecimento from '../components/Agradecimento'
+
 
 
 export default function index() {
@@ -13,7 +13,6 @@ export default function index() {
               <Route exact path="/" element={<HomePage/>} />
               <Route exact path="/backEnd" element={<BackEnd/>} />
               <Route exact path="/frontEnd" element={<FrontEnd/>} />
-              <Route exact path="/agradecimento" element={<Agradecimento/>} />
       </Routes>
     </div>
   )
