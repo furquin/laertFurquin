@@ -38,7 +38,7 @@ const projectsFrontEnd =
         name: 'RTL',
         image:`${RLT}`,
         description:'Esse foi um dos que mais gostei, foi meu primeiro contato com teste em front-end, desenvolvi 25 teste para uma pequena aplicação.',
-        link: 'https://github.com/furquin/Wallet'
+        link: 'https://github.com/furquin/react-teste'
     }
     
 ]

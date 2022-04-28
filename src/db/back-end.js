@@ -33,20 +33,20 @@ const projectsFrontEnd =
         name: 'Store Manager',
         image:`${storeManager}`,
         description:'Dividi o projeto em model, service e controller, acessei o banco de dados através da connection, construi testes utilizando mocha, shai e sinon, realizei 30 teste cobrindo mais de 70% do projeto',
-        link: ''
+        link: 'https://github.com/furquin/store-manager'
 
     },
     {
         name: 'Talker Manager',
         image:`${talkerManager}`,
         description:'Primeiro projeto em node.js, implementei rotas de criação, leitura, alteração e deleção de itens, alguns middlewares para verificação da requisição.',
-        link: ''
+        link: 'https://github.com/furquin/talker-manager'
     },
     {
         name: 'Blogs API',
         image:`${blogsApi}`,
         description:'Utilizando a divisão MSC (model, service, controller), utilizei sequelize para poder criar, mapear e popular o banco, utilizei JTW (json web token) para verificar autenticidade de usuário',
-        link: ''
+        link: 'https://github.com/furquin/blogs-api'
     }
     
 ]
