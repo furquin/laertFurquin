@@ -11,41 +11,41 @@ const projectsFrontEnd =
     {
         name: 'All for One',
         image:`${allForOne}`,
-        description: '',
+        description: 'Meu primeiro contato com MySql, aprendi a realizar query simples como SELECT, UPDATE, DELETE com alguns filtros.',
         link: 'https://github.com/furquin/introducao-mySql'
 
     },
     {
         name: 'One for All',
         image:`${oneForAll}`,
-        description:'',
+        description:'Criei um pequeno banco de dados e o populei, realizei query mais complexas utilizando JOIN, ORDER BY, GROUP BY e outros filtros.',
         link: 'https://github.com/furquin/funcoes-Mysql'
 
     },
     {
-        name: 'docker',
+        name: 'Docker',
         image:`${docker}`,
-        description:'',
+        description:'Aprendi a realizar comandos para criar, rodar e verificar containers, criei dockerfile e realizei build de image',
         link: 'https://github.com/furquin/introducao-docker'
 
     },
     {
         name: 'Store Manager',
         image:`${storeManager}`,
-        description:'',
+        description:'Dividi o projeto em model, service e controller, acessei o banco de dados através da connection, construi testes utilizando mocha, shai e sinon, realizei 30 teste cobrindo mais de 70% do projeto',
         link: ''
 
     },
     {
         name: 'Talker Manager',
         image:`${talkerManager}`,
-        description:'',
+        description:'Primeiro projeto em node.js, implementei rotas de criação, leitura, alteração e deleção de itens, alguns middlewares para verificação da requisição.',
         link: ''
     },
     {
         name: 'Blogs API',
         image:`${blogsApi}`,
-        description:'',
+        description:'Utilizando a divisão MSC (model, service, controller), utilizei sequelize para poder criar, mapear e popular o banco, utilizei JTW (json web token) para verificar autenticidade de usuário',
         link: ''
     }
     
