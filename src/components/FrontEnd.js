@@ -4,13 +4,13 @@ import dbFront from '../db/front-end'
 import FrontEndCards from './FrontEndCards';
 
 
-export function BackEnd() {
+export function FrontEnd() {
   return (
     <>
       <div className='flex justify-center'>
         <Link to="/" >
           <div>
-            <h1 className='text-6xl text-blue'> Home Page </h1>
+            <h1 className='text-6xl font-bold underline '> Home Page </h1>
           </div>
         </Link>
       </div>
@@ -29,4 +29,4 @@ export function BackEnd() {
     )  
 }
 
-export default BackEnd
+export default FrontEnd

@@ -14,9 +14,9 @@ export function FrontEndCards(props) {
             <img className='p-2 mt-2 w-380 h-380' src={image} alt={name} />
           </div>
         </a>  
-        <div>
+        <div className='ml-4 p-2 w-330 text-2xl'>
           <p>{ description }</p>
-         </div>
+        </div>
       </div>
     )  
 }
