@@ -7,17 +7,17 @@ export default function Tecnologias() {
   return (
     <div className="flex flex-col">
       <div>
-        <h1 className="flex justify-center text-6xl mb-12 bg-black text-white p-3"> Algumas tecnologias que utilizo </h1>
+        <h1 className="flex justify-center text-6xl bg-black text-white p-3"> Algumas tecnologias que utilizo </h1>
       </div>
-      <div className="flex justify-around">
+      <div className="flex justify-around bg-gradient-to-r from-pink-900 via-red-500 to-purple-500">
         <Link to="/frontEnd">
           <div>
-            <h1 className="flex justify-center text-6xl">Front-end</h1>
+            <h1 className="mt-16 flex justify-center text-6xl">Front-end</h1>
           </div>
           <div className="mt-4">
             <img className='w-450 h-450' src={frontEndImage} alt='imagem-de-tecnologias-front-end' />     
           </div>
-          <div className="flex justify-between">
+          <div className="mb-6 flex justify-between">
             <div className="text-2xl p-3 mt-3">
               <li className="p-2">Estados</li>
               <li className="p-2" >Eventos</li>
@@ -34,13 +34,13 @@ export default function Tecnologias() {
         </Link>
         <Link to="/backEnd">
           <div>
-            <h1 className="flex justify-center text-6xl">Back-end</h1>
+            <h1 className="mt-16 flex justify-center text-6xl">Back-end</h1>
           </div>
           <div className="mt-4">
             <img className='w-450 h-450'src={backEndImage} alt='imagem-de-tecnologias-back-end' />     
           </div>
          <div className="flex justify-between">
-            <div className="text-2xl p-3 mt-3">
+            <div className="mb-6 text-2xl p-3 mt-3">
               <li className="p-2" >SQL</li>
               <li className="p-2" >NoSQL</li>
               <li className="p-2" >Node.js</li>

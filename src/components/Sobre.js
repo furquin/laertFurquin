@@ -5,9 +5,9 @@ import perfil from '../images/perfil.png'
 export class Sobre extends Component {
   render() {
     return (
-      <div className="flex flex-col mt-8">
+      <div className="flex flex-col bg-gradient-to-r from-purple-900 via-blue-500 to-gray-500">
         <div>
-          <h1 className="flex justify-center text-6xl " > Um pouco sobre mim  </h1>
+          <h1 className="mt-10 flex justify-center text-6xl " > Um pouco sobre mim  </h1>
         </div>
 
         <div className='flex justify-around mt-32 mb-32 '>
