@@ -5,13 +5,16 @@ import FrontEndCards from './FrontEndCards';
 
 
 export function BackEnd() {
-    return (
-      <div>
+  return (
+    <>
+      <div className='flex justify-center'>
         <Link to="/" >
           <div>
-            <h1>Home Page</h1>
+            <h1 className='text-6xl text-blue'> Home Page </h1>
           </div>
         </Link>
+      </div>
+      <div className='flex flex-wrap justify-around'>
           {dbFront.map((value) => (
           <FrontEndCards
             key={ value.name }
@@ -22,6 +25,7 @@ export function BackEnd() {
           />
         ))}  
       </div>
+    </>
     )  
 }
 
