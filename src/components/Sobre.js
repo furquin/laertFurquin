@@ -10,17 +10,22 @@ export class Sobre extends Component {
           <h1 className="mt-10 flex justify-center text-6xl " > Um pouco sobre mim  </h1>
         </div>
 
-        <div className='flex justify-around mt-32 mb-32 '>
+        <div className='flex justify-around mt-16 mb-32 '>
 
           <div className="max-w-screen-sm" >
-            <img src={ perfil } alt="imagem-de-perfil" />
+            <img className="w-400 h-400" src={ perfil } alt="imagem-de-perfil" />
           </div>
-          <div className= 'max-w-xl text-4xl'>
+          <div className= 'text-white max-w-xl text-4xl'>
             <p>
-              Prazer, Laert Furquin, tenho 25 anos , amo animais e praias.
-              Sou muito descontraído e agitado.
-              Trabalho com desenvolvimento de software Full-stack, ainda em início de carreira, porém muito empolgado!
-              Sempre busco novos desafios e possibilidades de me destacar, mostrando do que sou capaz. Sou muito curioso, alegre e muito dedicado.
+              Prazer, me chamo Laert Furquin, tenho 25 anos.<br/>
+              <br/>
+              Sou Desenvolvedor Junior Full-Stack, ainda em início de carreira, porém muito empolgado e animado.<br/>
+              <br/>
+              Tenho experiência com JavaScript, Typescript, NodeJS, ReactJS, Html e CSS.<br />
+              <br/>
+              Sempre busco novas motivações e desafios visando sempre destacar, mostrando minha capacidade.<br />
+              <br/>
+              Sou muito curioso e dedicado.<br />
             </p>
 
           </div>
