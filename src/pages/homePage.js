@@ -3,6 +3,7 @@ import Sobre from '../components/Sobre'
 import Tecnologias from '../components/Tecnologias'
 import Header from '../components/Header'
 import Contatos from '../components/Contatos'
+import Created from '../components/Created'
 
 
 export default function homePage() {
@@ -19,6 +20,9 @@ export default function homePage() {
             </div>
             <div>
                 <Contatos />
+            </div>
+            <div>
+                <Created />
             </div>
         </div>
     )
