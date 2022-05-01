@@ -4,8 +4,6 @@ import logoLinkedin from '../images/logoLinkedin.png';
 
 
 
-
-
 export function Contatos() {
     return (
         <div>
@@ -38,19 +36,16 @@ export function Contatos() {
                             <h3 className='mt-32 flex justify-center text-4xl mb-5'>Gmail</h3>
                         </div>
                          <div>
-                            <form method="POST" action="mailto:laert.ff@gmail.com" enctype="text/plain">
-                                <input className='w-330 h-20 mt-5 border-solid border-2' type="email" name="email" placeholder="   Seu email" required/>
+                            <form method="POST" action="https://formsubmit.co/laert.ff@gmail.com">
+                                <input className='w-330 h-20 mt-5 border-solid border-2' type="email" name="email" placeholder="   Seu email" required />
                                 <input className='w-330 h-20 border-solid border-2 mt-3'  type="text" name="nome" placeholder="    Seu nome" required />
                                 <textarea className='w-330 h-330 mt-3 border-solid border-2' name="message" placeholder="    Escreva aqui" required></textarea>
+                                <input type="hidden" name="_next" value="https://furquin.github.io/laertFurquin/#/agradecimento"></input>
                                 <button className='w-330 border-solid border-2' type ="submit">Enviar</button>
                             </form>
                         </div>
                 </div>
             </div>
-            <div className='flex justify-center bg-black p-2'>
-                <p className='text-lg text-white'>Created By Laert Furquin |  2022 All rights reserved.</p>
-            </div>
-    
         </div>
     )  
 }
