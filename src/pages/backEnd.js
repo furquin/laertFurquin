@@ -1,6 +1,7 @@
 import React from 'react'
 import BackEnd from '../components/BackEnd';
 import Created from '../components/Created'
+import Header from '../components/Header'
 
 
 
@@ -9,6 +10,12 @@ export default function BackEndPage () {
     <div>
 
       <div>
+        < Header
+          appsFrontEnd="Apps Front-end"
+          contatos="Contatos"
+          tecnologias="Tecnologias"
+          homePage="Home Page"
+        />
         <BackEnd />
       </div>
 

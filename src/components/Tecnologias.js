@@ -3,16 +3,15 @@ import backEndImage from '../images/backEnd.png'
 import frontEndImage from '../images/frontEnd.png'
 import { Link } from 'react-router-dom';
 
+
+
 export default function Tecnologias() {
   return (
     <div className="flex flex-col">
-      <div>
-        <h1 className="flex justify-center text-6xl bg-black text-white p-3"> Algumas tecnologias que utilizo </h1>
-      </div>
       <div className="flex justify-around bg-gradient-to-r from-pink-900 via-red-500 to-purple-500">
         <Link to="/frontEnd">
           <div>
-            <h1 className="mt-16 flex justify-center text-6xl">Front-end</h1>
+            <h1 className="mt-16 flex justify-center text-4xl">Front-end</h1>
           </div>
           <div className="mt-4">
             <img className='w-450 h-450' src={frontEndImage} alt='imagem-de-tecnologias-front-end' />     
@@ -34,7 +33,7 @@ export default function Tecnologias() {
         </Link>
         <Link to="/backEnd">
           <div>
-            <h1 className="mt-16 flex justify-center text-6xl">Back-end</h1>
+            <h1 className="mt-16 flex justify-center text-4xl">Back-end</h1>
           </div>
           <div className="mt-4">
             <img className='w-450 h-450'src={backEndImage} alt='imagem-de-tecnologias-back-end' />     
