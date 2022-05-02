@@ -1,21 +1,18 @@
 import React from 'react'
 import linkedin from '../images/linkedin.png';
 import logoLinkedin from '../images/logoLinkedin.png';
+import Header from '../components/Header'
 
 
 
 export function Contatos() {
     return (
         <div>
-            <div className=''>
-                <h1 className="flex justify-center text-6xl bg-black text-white p-3"> Contatos </h1>
-            </div>
-
             <div className='bg-gradient-to-r from-yellow-500 via-green-500 to-blue-500 flex justify-around'>
                 <div className='w-330'>
-                    <a href="https://www.linkedin.com/in/laert-furquin-4208a9168/" target="_blank"rel="noopener noreferrer" >
+                    <a href="https://www.linkedin.com/in/laert-furquin/" target="_blank"rel="noopener noreferrer" >
                         <div>
-                            <h3 className='flex justify-center text-4xl mt-32 mb-5'>Linkedin</h3>        
+                            <h3 className='flex justify-center text-3xl mt-32 mb-5'>Linkedin</h3>        
                             <img  className='w-330 h-300' src={linkedin} alt="imagem-perfil-linkedin" />
                         </div>
                         <div>
@@ -33,7 +30,7 @@ export function Contatos() {
                                     
                 <div className='w-330'>
                         <div>
-                            <h3 className='mt-32 flex justify-center text-4xl mb-5'>Gmail</h3>
+                            <h3 className='mt-32 flex justify-center text-3xl mb-5'>Gmail</h3>
                         </div>
                          <div>
                             <form method="POST" action="https://formsubmit.co/laert.ff@gmail.com">

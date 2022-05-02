@@ -10,15 +10,22 @@ export default function homePage() {
     return (
         <div>
             <div>
-                <Header />
+                <Header
+                    tecnologias="Tecnologias"
+                    contatos="Contatos"
+                    appsFrontEnd="Apps Front-end"
+                    appsBackEnd="Apps Back-end"
+                />
             </div> 
             <div> 
                 <Sobre />
             </div>
             <div>
+                <Header tecnologias="Algumas tecnologias que utilizo"/>
                 <Tecnologias />
             </div>
             <div>
+                <Header contatos="Meus contatos"/>
                 <Contatos />
             </div>
             <div>
