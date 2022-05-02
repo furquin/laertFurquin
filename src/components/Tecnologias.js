@@ -25,7 +25,7 @@ export default function Tecnologias() {
               <li className="p-2" >Rotas</li>
             </div>
             <div className="text-2xl p-3 mt-3">
-              <li className="p-2" >Testes Com RTL</li>
+              <li className="p-2" >Testes com RTL</li>
               <li className="p-2" >Redux</li>
               <li className="p-2" >Context API</li>
               <li className="p-2">React Hooks</li>
@@ -49,7 +49,7 @@ export default function Tecnologias() {
             <div className="text-2xl p-3 mt-3">
               <li className="p-2" >API REST</li>
               <li className="p-2" >JWT</li>
-              <li className="p-2" >ORM</li>
+              <li className="p-2" >Sequelize</li>
               <li className="p-2" >Heroku</li>
             </div>
           </div>

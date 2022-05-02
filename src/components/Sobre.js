@@ -13,7 +13,7 @@ export class Sobre extends Component {
         <div className='flex justify-around mt-16 mb-32 '>
 
           <div className="max-w-screen-sm" >
-            <img className="w-400 h-400" src={ perfil } alt="imagem-de-perfil" />
+            <img className="mt-n180 w-600 h-850" src={ perfil } alt="imagem-de-perfil" />
           </div>
           <div className= 'text-white max-w-xl text-4xl'>
             <p>
@@ -23,7 +23,7 @@ export class Sobre extends Component {
               <br/>
               Tenho experiência com JavaScript, Typescript, NodeJS, ReactJS, Html e CSS.<br />
               <br/>
-              Sempre busco novas motivações e desafios visando sempre destacar, mostrando minha capacidade.<br />
+              Sempre busco novas motivações e desafios visando sempre me destacar e demonstrando minha capacidade.<br />
               <br/>
               Sou muito curioso e dedicado.<br />
             </p>
