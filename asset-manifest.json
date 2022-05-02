@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.1c9d72bf.css",
-    "main.js": "./static/js/main.14f896cf.js",
+    "main.js": "./static/js/main.8253fbc5.js",
     "static/media/agradecimento.gif": "./static/media/agradecimento.374004526c87f5d56dc2.gif",
     "static/media/tunes.png": "./static/media/tunes.fcccfdcd9dcced41510e.png",
     "static/media/solar_system.png": "./static/media/solar_system.b5a20da8eb8ee94401f1.png",
@@ -19,10 +19,10 @@
     "static/media/docker.png": "./static/media/docker.cdaecb5588befd6e3feb.png",
     "index.html": "./index.html",
     "main.1c9d72bf.css.map": "./static/css/main.1c9d72bf.css.map",
-    "main.14f896cf.js.map": "./static/js/main.14f896cf.js.map"
+    "main.8253fbc5.js.map": "./static/js/main.8253fbc5.js.map"
   },
   "entrypoints": [
     "static/css/main.1c9d72bf.css",
-    "static/js/main.14f896cf.js"
+    "static/js/main.8253fbc5.js"
   ]
 }
