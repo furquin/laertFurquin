@@ -32,7 +32,7 @@ const projectsFrontEnd =
     {
         name: 'Store Manager',
         image:`${storeManager}`,
-        description:'Dividi o projeto em model, service e controller, acessei o banco de dados através da connection, construi testes utilizando mocha, shai e sinon, realizei 30 teste cobrindo mais de 70% do projeto',
+        description:'Dividi o projeto em model, service e controller, acessei o banco de dados através da connection, construi testes utilizando mocha, chai e sinon, realizei 30 testes cobrindo mais de 70% do projeto',
         link: 'https://github.com/furquin/store-manager'
 
     },
