@@ -35,7 +35,7 @@ export function Contatos() {
                             <form method="POST" action="https://formsubmit.co/laert.ff@gmail.com">
                                 <input className='w-330 h-20 mt-5 border-solid border-2' type="email" name="email" placeholder="   Seu email" required />
                                 <input className='w-330 h-20 border-solid border-2 mt-3'  type="text" name="nome" placeholder="    Seu nome" required />
-                                <textarea className='w-330 h-330 mt-3 border-solid border-2' name="message" placeholder="    Escreva aqui" required></textarea>
+                                <textarea className='w-330 h-330 mt-3 border-solid border-2 text-black' name="message" placeholder="    Escreva aqui" required></textarea>
                                 <input type="hidden" name="_next" value="https://furquin.github.io/laertFurquin/#/agradecimento"></input>
                                 <button className='w-330 border-solid border-2' type ="submit">Enviar</button>
                             </form>
