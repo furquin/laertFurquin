@@ -13,7 +13,7 @@ export class Sobre extends Component {
         <div className='flex justify-around mt-16 mb-32 '>
 
           <div className="max-w-screen-sm" >
-            <img className="mt-n180 w-600 h-850" src={ perfil } alt="imagem-de-perfil" />
+            <img className="mt-n120 w-600 h-700 rounded-3xl" src={ perfil } alt="imagem-de-perfil" />
           </div>
           <div className= 'text-cyan-200 max-w-xl text-3xl'>
             <p>

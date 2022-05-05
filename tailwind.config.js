@@ -25,7 +25,7 @@ module.exports = {
 
       },
       margin: {
-        n180: '-180px',
+        n120: '-120px',
       },
       opacity: {
         85: '.85',
