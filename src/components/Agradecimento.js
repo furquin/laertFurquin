@@ -14,7 +14,7 @@ export function Agradecimento() {
           tecnologias="Tecnologias"
         />
         </div>
-      <div className="flex flex-col items-center bg-cyan-700">        
+      <div className="flex flex-col items-center bg-gray-800">        
         <div>
           <img className="mt-12 mb-20 w-800 h-700" src={agradecimento} alt="gif de agradecimento" />
         </div>

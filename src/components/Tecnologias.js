@@ -8,13 +8,15 @@ import { Link } from 'react-router-dom';
 export default function Tecnologias() {
   return (
     <div className="flex flex-col">
-      <div className="flex justify-around bg-cyan-600">
+      <div className="flex justify-around bg-gray-600">
         <Link className="opacity-85 hover:opacity-100" to="/frontEnd">
-          <div>
-            <h1 className="mt-16 flex justify-center text-white text-4xl">Front-end</h1>
-          </div>
-          <div className="mt-4">
-            <img className='hover:scale-105 transition-all duration-300 rounded-3xl w-450 h-450 ' src={frontEndImage} alt='imagem-de-tecnologias-front-end' />     
+          <div className=''>
+            <div>
+              <h1 className="mt-16 flex justify-center text-white text-4xl">Front-end</h1>
+            </div>
+            <div className="mt-4">
+              <img className='transition-all duration-300 rounded-3xl w-450 h-450 hover:border-4 border-orange-500 hover:scale-105' src={frontEndImage} alt='imagem-de-tecnologias-front-end' />     
+            </div>
           </div>
           <div className="mb-6 flex justify-between">
             <div className="text-white text-2xl p-3 mt-3">
@@ -36,7 +38,7 @@ export default function Tecnologias() {
             <h1 className="mt-16 flex justify-center text-white text-4xl">Back-end</h1>
           </div>
           <div className="mt-4">
-            <img className='rounded-3xl w-450 h-450 hover:scale-105 transition-all duration-300'src={backEndImage} alt='imagem-de-tecnologias-back-end' />     
+            <img className='rounded-3xl w-450 h-450 hover:scale-105 transition-all duration-300 hover:border-4 border-orange-500'src={backEndImage} alt='imagem-de-tecnologias-back-end' />     
           </div>
          <div className="flex justify-between">
             <div className="mb-6 text-white text-2xl p-3 mt-3">

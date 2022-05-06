@@ -6,32 +6,32 @@ export default function Header(props) {
   const { tecnologias, contatos, appsBackEnd, appsFrontEnd, homePage } = props
 
   return (
-    <div className="flex justify-around text-3xl bg-cyan-800 text-white p-3">
+    <div className="flex justify-around text-3xl bg-gray-700 text-white p-3">
       
       {homePage &&
-        <Link className="hover:text-cyan-500 hover:scale-110" to="/">
+        <Link className="hover:text-orange-500 hover:scale-110" to="/">
           <h3>{homePage}</h3>
         </Link>
         
       }
 
       {tecnologias &&
-        <Link  className="hover:text-cyan-500 hover:scale-110" to="/tecnologias">
+        <Link  className="hover:text-orange-500 hover:scale-110" to="/tecnologias">
           <h3>{tecnologias}</h3>
         </Link>
       }
       {contatos &&
-        <Link className="hover:text-cyan-500 hover:scale-110" to="/contatos">
+        <Link className="hover:text-orange-500 hover:scale-110" to="/contatos">
           <h3>{contatos}</h3>
         </Link>
       }
       {appsBackEnd &&
-        <Link className="hover:text-cyan-500 hover:scale-110" to="/backEnd">
+        <Link className="hover:text-orange-500 hover:scale-110" to="/backEnd">
           <h3>{appsBackEnd}</h3>
         </Link>
       }
       {appsFrontEnd &&
-        <Link className="hover:text-cyan-500 hover:scale-110" to="/frontEnd">
+        <Link className="hover:text-orange-500 hover:scale-110" to="/frontEnd">
           <h3>{appsFrontEnd}</h3>
         </Link>
       }

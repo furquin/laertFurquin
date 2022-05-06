@@ -5,7 +5,7 @@ import FrontEndCards from './FrontEndCards';
 
 export function FrontEnd() {
   return (
-    <div className='bg-cyan-700'>
+    <div className='bg-gray-800'>
       <div className='flex flex-wrap justify-around'>
           {dbFront.map((value) => (
           <FrontEndCards

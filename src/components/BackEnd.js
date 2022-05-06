@@ -5,7 +5,7 @@ import BackEndCards from './BackEndCards';
 
 export function BackEnd() {
     return (
-     <div className='bg-cyan-600'>
+     <div className='bg-gray-600'>
       <div className='flex flex-wrap justify-around'>
           {dbBack.map((value) => (
           <BackEndCards

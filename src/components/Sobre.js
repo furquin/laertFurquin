@@ -5,7 +5,7 @@ import perfil from '../images/perfil.png'
 export class Sobre extends Component {
   render() {
     return (
-      <div className="flex flex-col bg-cyan-700">
+      <div className="flex flex-col bg-gray-800">
         <div>
           <h1 className="mt-10 flex text-white justify-center text-5xl " > Um pouco sobre mim  </h1>
         </div>
@@ -15,7 +15,7 @@ export class Sobre extends Component {
           <div className="max-w-screen-sm" >
             <img className="mt-n120 w-600 h-700 rounded-3xl" src={ perfil } alt="imagem-de-perfil" />
           </div>
-          <div className= 'text-cyan-200 max-w-xl text-3xl'>
+          <div className= 'text-gray-500 max-w-xl text-3xl'>
             <p>
               Prazer, me chamo Laert Furquin, tenho 25 anos.<br/>
               <br/>

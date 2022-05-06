@@ -7,7 +7,7 @@ import logoLinkedin from '../images/logoLinkedin.png';
 export function Contatos() {
     return (
         <div>
-            <div className='bg-cyan-700 flex justify-around'>
+            <div className='bg-gray-800 flex justify-around'>
                 <div className='w-330'>
                     <a href="https://www.linkedin.com/in/laert-furquin/" target="_blank"rel="noopener noreferrer" >
                         <div>
