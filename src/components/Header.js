@@ -6,7 +6,7 @@ export default function Header(props) {
   const { tecnologias, contatos, appsBackEnd, appsFrontEnd, homePage } = props
 
   return (
-    <div className="flex justify-around text-3xl bg-gray-700 text-white p-3">
+    <div className="flex justify-around text-2xl bg-gray-700 text-white p-3">
       
       {homePage &&
         <Link className="hover:text-orange-500 hover:scale-110" to="/">

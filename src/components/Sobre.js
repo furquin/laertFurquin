@@ -7,15 +7,15 @@ export class Sobre extends Component {
     return (
       <div className="flex flex-col bg-gray-800">
         <div>
-          <h1 className="mt-10 flex text-white justify-center text-5xl " > Um pouco sobre mim  </h1>
+          <h1 className="mt-10 flex text-white justify-center text-4xl " > Um pouco sobre mim  </h1>
         </div>
 
         <div className='flex justify-around mt-16 mb-32 '>
 
           <div className="max-w-screen-sm" >
-            <img className="mt-n120 w-600 h-700 rounded-3xl" src={ perfil } alt="imagem-de-perfil" />
+            <img className="mt-n110 w-450 h-570 rounded-3xl" src={ perfil } alt="imagem-de-perfil" />
           </div>
-          <div className= 'text-gray-500 max-w-xl text-3xl'>
+          <div className= 'text-gray-500 max-w-xl text-2xl'>
             <p>
               Prazer, me chamo Laert Furquin, tenho 25 anos.<br/>
               <br/>
