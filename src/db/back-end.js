@@ -4,6 +4,7 @@ import docker from '../db_images/docker.png'
 import storeManager from '../db_images/store_manager.png'
 import talkerManager from '../db_images/talker_manager.png'
 import blogsApi from '../db_images/blogs_api.png'
+import smith from '../db_images/smith.png'
 
 
 const projectsFrontEnd =
@@ -47,7 +48,13 @@ const projectsFrontEnd =
         image:`${blogsApi}`,
         description:'Utilizando a divisão MSC (model, service, controller), utilizei sequelize para poder criar, mapear e popular o banco, utilizei JTW (json web token) para verificar autenticidade de usuário',
         link: 'https://github.com/furquin/blogs-api'
-    }
+    },
+    {
+        name: 'Smith',
+        image:`${smith}`,
+        description:'Implementado com arquitetura MSC e desenvolvido com Typescript facilitando para realizar manutenções, utilizando JOI para as devidas validações em middlewares',
+        link: 'https://github.com/furquin/smith'
+    },
     
 ]
 
