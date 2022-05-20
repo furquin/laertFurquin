@@ -6,10 +6,10 @@ import Header from '../components/Header'
 
 
 
-export default function AgradecimentoPage () {
+export default function tecnologiasPage () {
   return (
-    <div className="bg-black text-white">
-      <div>
+    <div className="text-white">
+      <div className='bg-gray-600 h-850'>
         < Header
           appsFrontEnd="Apps Front-end"
           appsBackEnd="Apps Back-end"
@@ -20,7 +20,7 @@ export default function AgradecimentoPage () {
       </div>
 
       <div>
-        <Created />
+        <Created className='mt-10' />
       </div>
     </div>
     

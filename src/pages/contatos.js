@@ -8,15 +8,15 @@ import Header from '../components/Header'
 
 export default function ContatoPage () {
   return (
-    <div className="bg-black text-white">
-      <div>
+    <div >
+      <div className='bg-gray-800 h-850'>
         < Header
           appsFrontEnd="Apps Front-end"
           appsBackEnd="Apps Back-end"
           tecnologias="Tecnologias"
           homePage="Home Page"
         />
-        <Contatos />
+        <Contatos/>
       </div>
 
       <div>

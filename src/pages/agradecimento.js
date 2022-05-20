@@ -6,7 +6,7 @@ import Created from '../components/Created'
 
 export default function AgradecimentoPage () {
   return (
-    <div>
+    <div className='bg-gray-600 h-850'>
 
       <div>
         <Agradecimento />
