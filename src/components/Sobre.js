@@ -19,11 +19,11 @@ export class Sobre extends Component {
             <p>
               Prazer, me chamo Laert Furquin, tenho 25 anos.<br/>
               <br/>
-              Sou Desenvolvedor Junior Full-Stack, ainda em busca da primeira oportunidade de emprego, muito empolgado e animado.<br/>
+              Sou Desenvolvedor Junior Full-Stack, em busca de uma oportunidade para aprimorar minhas habilidades em desenvolvimento web.<br/>
               <br/>
-              Tenho experiência com JavaScript, Typescript, NodeJS, ReactJS, Html e CSS.<br />
+              Tenho experiência com JavaScript, Typescript, NodeJS, ExpressJs, Sequelize, MySQL, MongoDB, ReactJS, Html e CSS.<br />
               <br/>
-              Sempre busco novas motivações e desafios visando sempre me destacar e demonstrando minha capacidade.<br />
+              Gosto de buscar novos desafios visando sempre me aprimorar meus conhecimentos e testar minha capacidade.<br />
               <br/>
               Sou muito curioso e dedicado.<br />
             </p>
