@@ -5,6 +5,7 @@ import storeManager from '../db_images/store_manager.png'
 import talkerManager from '../db_images/talker_manager.png'
 import blogsApi from '../db_images/blogs_api.png'
 import smith from '../db_images/smith.png'
+import cashforce from '../db_images/cashforce.png'
 
 
 const projectsFrontEnd =
@@ -54,6 +55,12 @@ const projectsFrontEnd =
         image:`${smith}`,
         description:'Implementado com arquitetura MSC e desenvolvido com Typescript facilitando para realizar manutenções, utilizando JOI para as devidas validações em middlewares',
         link: 'https://github.com/furquin/smith'
+    },
+    {
+        name: 'CashForce',
+        image:`${cashforce}`,
+        description:'Implementado com arquitetura MSC e desenvolvido com JavaScript, utilizando sequelize para comunicação com o banco de dados e com front-end desenvolvido com react',
+        link: 'https://github.com/furquin/cashforce'
     },
     
 ]
