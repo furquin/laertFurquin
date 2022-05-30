@@ -23,7 +23,7 @@ export class Sobre extends Component {
               <br/>
               Tenho experiência com JavaScript, Typescript, NodeJS, ExpressJs, Sequelize, MySQL, MongoDB, ReactJS, Html e CSS.<br />
               <br/>
-              Gosto de buscar novos desafios visando sempre me aprimorar meus conhecimentos e testar minha capacidade.<br />
+              Gosto de buscar novos desafios visando sempre aprimorar meus conhecimentos e testar minha capacidade.<br />
               <br/>
               Sou muito curioso e dedicado.<br />
             </p>
