@@ -5,7 +5,7 @@ import perfil from '../images/perfil.png'
 export class Sobre extends Component {
   render() {
     return (
-      <div className="flex flex-col bg-gray-800">
+      <div className="flex flex-col bg-gray-800 h-full w-full">
         <div>
           <h1 className="mt-10 flex text-white justify-center text-4xl " > Um pouco sobre mim  </h1>
         </div>

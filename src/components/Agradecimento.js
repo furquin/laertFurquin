@@ -6,7 +6,7 @@ import Header from '../components/Header';
 
 export function Agradecimento() {
   return (
-    <div>
+    <div className='h-full w-full'>
       <div>
         <Header
           contatos="contatos"

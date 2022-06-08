@@ -7,7 +7,7 @@ import Header from '../components/Header'
 
 export default function BackEndPage () {
   return (
-    <div>
+    <div >
 
       <div>
         < Header
@@ -16,7 +16,7 @@ export default function BackEndPage () {
           tecnologias="Tecnologias"
           homePage="Home Page"
         />
-        <BackEnd />
+        <BackEnd/>
       </div>
 
       <div>

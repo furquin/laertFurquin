@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 export default function Tecnologias() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col w-full">
       <div className="flex justify-around bg-gray-600">
         <Link className="opacity-85 hover:opacity-100" to="/frontEnd">
           <div className=''>
