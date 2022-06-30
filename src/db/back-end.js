@@ -6,6 +6,9 @@ import talkerManager from '../db_images/talker_manager.png'
 import blogsApi from '../db_images/blogs_api.png'
 import smith from '../db_images/smith.png'
 import cashforce from '../db_images/cashforce.png'
+import futebolClube from '../db_images/futebol_clube.jpeg'
+
+
 
 
 const projectsFrontEnd =
@@ -61,6 +64,12 @@ const projectsFrontEnd =
         image:`${cashforce}`,
         description:'Implementado com arquitetura MSC e desenvolvido com JavaScript, utilizando sequelize para comunicação com o banco de dados e com front-end desenvolvido com react',
         link: 'https://github.com/furquin/cashforce'
+    },
+    {
+        name: 'Futebol Clube',
+        image:`${futebolClube}`,
+        description:'Projeto desenvolvido em TypeScript, divido em model, service e controller, acessei o banco de dados através de sequelize, construi testes utilizando mocha, chai e sinon, realizei mais de 20 testes que cobrem mais de 80% da aplicação',
+        link: 'https://github.com/furquin/futebol-clube'
     },
     
 ]

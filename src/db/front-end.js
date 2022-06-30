@@ -3,6 +3,8 @@ import startWars from '../db_images/star_wars.png'
 import tunes from '../db_images/tunes.png'
 import wallet from '../db_images/wallet.png'
 import RLT from '../db_images/RTL.png'
+import cashforce from '../db_images/cashforce.png'
+
 
 const projectsFrontEnd =
 [
@@ -39,7 +41,13 @@ const projectsFrontEnd =
         image:`${RLT}`,
         description:'Esse foi um dos que mais gostei, foi meu primeiro contato com teste em front-end, desenvolvi 25 teste para uma pequena aplicação.',
         link: 'https://github.com/furquin/react-teste'
-    }
+    },
+    {
+        name: 'CashForce',
+        image:`${cashforce}`,
+        description:'Implementado com arquitetura MSC e desenvolvido com JavaScript, utilizando sequelize para comunicação com o banco de dados e com front-end desenvolvido com react',
+        link: 'https://github.com/furquin/cashforce'
+    },
     
 ]
 
