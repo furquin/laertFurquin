@@ -7,6 +7,7 @@ import blogsApi from '../db_images/blogs_api.png'
 import smith from '../db_images/smith.png'
 import cashforce from '../db_images/cashforce.png'
 import futebolClube from '../db_images/futebol_clube.jpeg'
+import POO from '../db_images/POO.png'
 
 
 
@@ -30,14 +31,14 @@ const projectsFrontEnd =
     {
         name: 'Docker',
         image:`${docker}`,
-        description:'Aprendi a realizar comandos para criar, rodar e verificar containers, criei dockerfile e realizei build de image',
+        description:'Aprendi a realizar comandos para criar, rodar e verificar containers, criei dockerfile e realizei build de image.',
         link: 'https://github.com/furquin/introducao-docker'
 
     },
     {
         name: 'Store Manager',
         image:`${storeManager}`,
-        description:'Dividi o projeto em model, service e controller, acessei o banco de dados através da connection, construi testes utilizando mocha, chai e sinon, realizei 30 testes cobrindo mais de 70% do projeto',
+        description:'Dividi o projeto em model, service e controller, acessei o banco de dados através da connection, construi testes utilizando mocha, chai e sinon, realizei 30 testes cobrindo mais de 70% do projeto.',
         link: 'https://github.com/furquin/store-manager'
 
     },
@@ -50,26 +51,32 @@ const projectsFrontEnd =
     {
         name: 'Blogs API',
         image:`${blogsApi}`,
-        description:'Utilizando a divisão MSC (model, service, controller), utilizei sequelize para poder criar, mapear e popular o banco, utilizei JTW (json web token) para verificar autenticidade de usuário',
+        description:'Utilizando a divisão MSC (model, service, controller), utilizei sequelize para poder criar, mapear e popular o banco, utilizei JTW (json web token) para verificar autenticidade de usuário.',
         link: 'https://github.com/furquin/blogs-api'
     },
     {
         name: 'Smith',
         image:`${smith}`,
-        description:'Implementado com arquitetura MSC e desenvolvido com Typescript facilitando para realizar manutenções, utilizando JOI para as devidas validações em middlewares',
+        description:'Implementado com arquitetura MSC e desenvolvido com Typescript facilitando para realizar manutenções, utilizando JOI para as devidas validações em middlewares.',
         link: 'https://github.com/furquin/smith'
     },
     {
         name: 'CashForce',
         image:`${cashforce}`,
-        description:'Implementado com arquitetura MSC e desenvolvido com JavaScript, utilizando sequelize para comunicação com o banco de dados e com front-end desenvolvido com react',
+        description:'Implementado com arquitetura MSC e desenvolvido com JavaScript, utilizando sequelize para comunicação com o banco de dados e com front-end desenvolvido com react.',
         link: 'https://github.com/furquin/cashforce'
     },
     {
         name: 'Futebol Clube',
         image:`${futebolClube}`,
-        description:'Projeto desenvolvido em TypeScript, divido em model, service e controller, acessei o banco de dados através de sequelize, construi testes utilizando mocha, chai e sinon, realizei mais de 20 testes que cobrem mais de 80% da aplicação',
+        description:'Projeto desenvolvido em TypeScript, divido em model, service e controller, acessei o banco de dados através de sequelize, construi testes utilizando mocha, chai e sinon, realizei mais de 20 testes que cobrem mais de 80% da aplicação.',
         link: 'https://github.com/furquin/futebol-clube'
+        },
+    {
+        name: 'POO',
+        image:`${POO}`,
+        description:'Projeto desenvolvido com intuído de consolidar meus conhecimentos em typeScript e programação orientada a objetos.',
+        link: 'https://github.com/furquin/POO'
     },
     
 ]
