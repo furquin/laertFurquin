@@ -8,6 +8,7 @@ import smith from '../db_images/smith.png'
 import cashforce from '../db_images/cashforce.png'
 import futebolClube from '../db_images/futebol_clube.jpeg'
 import POO from '../db_images/POO.png'
+import mongoDB from '../db_images/mongoDB.png'
 
 
 
@@ -77,6 +78,12 @@ const projectsFrontEnd =
         image:`${POO}`,
         description:'Projeto desenvolvido com intuído de consolidar meus conhecimentos em typeScript e programação orientada a objetos.',
         link: 'https://github.com/furquin/POO'
+        },
+    {
+        name: 'Commerce',
+        image:`${mongoDB}`,
+        description:'Projeto desenvolvido com intuído de consolidar meus conhecimentos em mongoDB, realizando diversas querys para fixar o conteúdo.',
+        link: 'https://github.com/furquin/introducao_mongoDB'
     },
     
 ]
