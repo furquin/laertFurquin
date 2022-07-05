@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.d75a8ca1.css",
-    "main.js": "./static/js/main.81598bc6.js",
+    "main.js": "./static/js/main.86ad5b25.js",
     "static/media/agradecimento.gif": "./static/media/agradecimento.374004526c87f5d56dc2.gif",
     "static/media/tunes.png": "./static/media/tunes.fcccfdcd9dcced41510e.png",
     "static/media/perfil.png": "./static/media/perfil.ba1d84453fce0dab1bc4.png",
     "static/media/solar_system.png": "./static/media/solar_system.b5a20da8eb8ee94401f1.png",
     "static/media/frontEnd.png": "./static/media/frontEnd.c2cccde7ce37b7b4af4d.png",
     "static/media/linkedin.png": "./static/media/linkedin.0470891b41e403781d57.png",
+    "static/media/mongoDB.png": "./static/media/mongoDB.62493aff0e90fab0ac57.png",
     "static/media/backEnd.png": "./static/media/backEnd.419244ceecc5d194225a.png",
     "static/media/wallet.png": "./static/media/wallet.20682368558176d37679.png",
     "static/media/star_wars.png": "./static/media/star_wars.54849084737e5ddf2b56.png",
@@ -22,10 +23,10 @@
     "static/media/docker.png": "./static/media/docker.cdaecb5588befd6e3feb.png",
     "index.html": "./index.html",
     "main.d75a8ca1.css.map": "./static/css/main.d75a8ca1.css.map",
-    "main.81598bc6.js.map": "./static/js/main.81598bc6.js.map"
+    "main.86ad5b25.js.map": "./static/js/main.86ad5b25.js.map"
   },
   "entrypoints": [
     "static/css/main.d75a8ca1.css",
-    "static/js/main.81598bc6.js"
+    "static/js/main.86ad5b25.js"
   ]
 }
