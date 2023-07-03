@@ -15,11 +15,10 @@ export class Sobre extends Component {
             <p>
               Prazer, me chamo Laert Furquin, tenho 26 anos.<br/>
               <br/>
-              Sou Desenvolvedor Backend, buscando novas experiências para aprimorar minhas habilidades como desenvolvedor.<br/>
+              Sou desenvolvedor Backend, buscando novas experiências para aprimorar minhas habilidades como desenvolvedor.<br/>
               <br/>
               Tenho 2 anos de experiência com JavaScript, Typescript, NodeJS, TypeORM, Prisma, NestJS e Postgres. <br />
               <br/>
-              <br>
               Também tenho vasto conhecimento em ExpressJs, Sequelize, MySQL, MongoDB, ReactJS, Html e CSS, Vue, Quasar. <br />
               <br/>
               Atualmente estou estudando análise de dados com python.<br />
