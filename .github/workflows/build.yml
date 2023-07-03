@@ -11,6 +11,7 @@ jobs:
       pull-requests: write
       issues: write
       repository-projects: write
+      deployments: write
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
