@@ -11,8 +11,8 @@ export default function tecnologiasPage () {
     <div className="text-white h-screen">
       <div className='bg-gray-600'>
         < Header
-          appsFrontEnd="Apps Front-end"
-          appsBackEnd="Apps Back-end"
+          appsFrontEnd="Front-end"
+          appsBackEnd="Back-end"
           contatos="Contatos"
           homePage="Home Page"
         />

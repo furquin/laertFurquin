@@ -11,8 +11,8 @@ export default function ContatoPage () {
     <div>
       <div className='bg-gray-800 h-850'>
         < Header
-          appsFrontEnd="Apps Front-end"
-          appsBackEnd="Apps Back-end"
+          appsFrontEnd="Front-end"
+          appsBackEnd="Back-end"
           tecnologias="Tecnologias"
           homePage="Home Page"
         />

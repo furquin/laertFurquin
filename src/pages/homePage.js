@@ -13,15 +13,15 @@ export default function homePage() {
                 <Header
                     tecnologias="Tecnologias"
                     contatos="Contatos"
-                    appsFrontEnd="Apps Front-end"
-                    appsBackEnd="Apps Back-end"
+                    appsFrontEnd="Front-end"
+                    appsBackEnd="Back-end"
                 />
             </div> 
             <div> 
                 <Sobre />
             </div>
             <div>
-                <Header tecnologias="Algumas tecnologias que utilizo"/>
+                <Header tecnologias="Minhas especialidades"/>
                 <Tecnologias />
             </div>
             <div>

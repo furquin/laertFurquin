@@ -11,7 +11,7 @@ export default function BackEndPage () {
 
       <div>
         < Header
-          appsFrontEnd="Apps Front-end"
+          appsFrontEnd="Front-end"
           contatos="Contatos"
           tecnologias="Tecnologias"
           homePage="Home Page"
