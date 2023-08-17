@@ -7,19 +7,19 @@ import logoLinkedin from '../images/logoLinkedin.png';
 export function Contatos() {
     return (
         <div>
-            <div className='bg-gray-800 flex justify-around'>
+            <div className='bg-gray-800 flex justify-around items-center h-screen'>
                 <div className='w-330'>
-                    <a href="https://www.linkedin.com/in/laert-furquin/" target="_blank"rel="noopener noreferrer" >
+                    <a href="https://www.linkedin.com/in/laert-furquin/" target="_blank"rel="noreferrer" >
                         <div>
                             <h3 className='flex justify-center text-2xl mt-20 mb-5 text-white '>Linkedin</h3>        
-                            <img  className='rounded-3xl w-300' src={linkedin} alt="imagem-perfil-linkedin" />
+                            <img  className='rounded-3xl w-400 h-250' src={linkedin} alt="imagem-perfil-linkedin" />
                         </div>
                         <div>
                             <div>
                                 <img className='rounded-xl w-8 mt-5' src={logoLinkedin} alt='logo-linkedin' />
                                 
                                 <p className='text-gray-500 mt-6 mb-16 text-xl '>
-                                    Através do linkedin terá um contato mais direto comigo, sempre estou por la procurando novidades, debates e sempre me mantendo informado sobre as atuais notícias.
+                                    Através do linkedin terá um contato mais direto comigo, sempre estou por la atualizando minhas competências, cursos e tecnologias.
                                 </p>    
                             </div>
                         </div>

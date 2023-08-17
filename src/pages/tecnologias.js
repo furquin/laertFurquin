@@ -8,8 +8,8 @@ import Header from '../components/Header'
 
 export default function tecnologiasPage () {
   return (
-    <div className="text-white">
-      <div className='bg-gray-600 h-850'>
+    <div className="text-white h-screen">
+      <div className='bg-gray-600'>
         < Header
           appsFrontEnd="Apps Front-end"
           appsBackEnd="Apps Back-end"
@@ -17,10 +17,7 @@ export default function tecnologiasPage () {
           homePage="Home Page"
         />
         <Tecnologias />
-      </div>
-
-      <div>
-        <Created className='mt-10' />
+        <Created />
       </div>
     </div>
     

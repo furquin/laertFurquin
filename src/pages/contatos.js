@@ -8,7 +8,7 @@ import Header from '../components/Header'
 
 export default function ContatoPage () {
   return (
-    <div >
+    <div>
       <div className='bg-gray-800 h-850'>
         < Header
           appsFrontEnd="Apps Front-end"
@@ -17,10 +17,7 @@ export default function ContatoPage () {
           homePage="Home Page"
         />
         <Contatos/>
-      </div>
-
-      <div>
-        <Created />
+        <Created/>
       </div>
     </div>
     
