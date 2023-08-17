@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import figurinha from "../images/figurinha_2.png";
+import perfil from "../images/perfil.png";
 
 export class Sobre extends Component {
   render() {
@@ -9,7 +9,7 @@ export class Sobre extends Component {
           <div className="max-w-screen-sm">
             <img
               className="mt-n55 w-450 h-570 rounded-3xl"
-              src={figurinha}
+              src={perfil}
               alt="imagem-de-perfil"
             />
           </div>
