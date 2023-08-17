@@ -4,6 +4,7 @@ import tunes from '../db_images/tunes.png'
 import wallet from '../db_images/wallet.png'
 import RLT from '../db_images/RTL.png'
 import cashforce from '../db_images/cashforce.png'
+import vue from '../db_images/logoVue.png'
 
 
 const projectsFrontEnd =
@@ -18,7 +19,7 @@ const projectsFrontEnd =
     {
         name: 'Star Wars',
         image:`${startWars}`,
-        description:'Utilizei componentes funcionais,fiz muito uso de React Hooks, para gerenciar estados através do provider,realizei diversos filtros para preenchimento de dados.',
+        description:'Utilizei componentes funcionais,fiz muito uso de React Hooks, para gerência de estados através do provider,realizei diversos filtros para preenchimento de dados.',
         link: 'https://github.com/furquin/starWars'
 
     },
@@ -47,6 +48,12 @@ const projectsFrontEnd =
         image:`${cashforce}`,
         description:'Implementado com arquitetura MSC e desenvolvido com JavaScript, utilizando sequelize para comunicação com o banco de dados e com front-end desenvolvido com react',
         link: 'https://github.com/furquin/cashforce'
+    },
+    {
+        name: 'Alura Tracker',
+        image:`${vue}`,
+        description:'Projeto fundamental para colocar em prática meus conhecimento adquiridos no curso de Vue, onde desenvolvi uma aplicação para controle tempo utilizado para desenvolver as tarefas do dia a dia, e organizar os projetos que estão sendo trabalhados.',
+        link: 'https://alura-tracker-tau-ruddy.vercel.app/#/'
     },
     
 ]
