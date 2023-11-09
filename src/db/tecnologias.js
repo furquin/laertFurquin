@@ -14,6 +14,7 @@ import typeorm from '../db_svg/typeorm.svg'
 import rmq from '../db_svg/rabbitmq.svg'
 import python from '../db_svg/python.svg'
 import postgresql from '../db_svg/postgres.svg'
+import docker from '../db_svg/docker.svg'
 
 const TecnologiasProjects = [
     {
@@ -79,6 +80,10 @@ const TecnologiasProjects = [
     {
         name: "Python",
         image: `${python}`,
+    },
+    {
+        name: "Docker",
+        image: `${docker}`,
     },
 ];
 
