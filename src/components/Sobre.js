@@ -8,31 +8,33 @@ export class Sobre extends Component {
         <div className="flex justify-around mt-16 mb-32 ">
           <div className="max-w-screen-sm">
             <img
-              className="mt-n55 w-450 h-570 rounded-3xl"
+              className="mt-70 w-600 h-600 rounded-3xl"
               src={perfil}
               alt="imagem-de-perfil"
             />
           </div>
           <div className="text-gray-500 max-w-xl text-2xl">
             <p>
-              Prazer, me chamo Laert Furquin, tenho 26 anos.
+              Aos 18 anos tomei a decisão de sair de casa para novas aventuras.
+              Servi dois anos no exército, onde desenvolvi habilidades como
+              gestão do tempo, disciplina e trabalho em equipe.
               <br />
               <br />
-              Sou desenvolvedor Backend, buscando novas experiências para
-              aprimorar minhas habilidades como desenvolvedor.
+              Durante esse período, explorei minha afinidade com a tecnologia.
+              Após deixar o serviço militar, direcionei minha carreira para a
+              área de tecnologia. Inicialmente sem um foco específico, então
+              descobri o desenvolvimento web durante pesquisas sobre criação de
+              apps de delivery.
+              <br />
+              <br />A partir dai, iniciei uma jornada de estudos, desenvolvendo
+              habilidades em tecnologias como TypeScript, JavaScript, Node.js,
+              Nest.js, Prisma, TypeORM, Express.js, Sequelize, MySQL, Postgres
+              entre outras. Ao longo do tempo, também aprimorei minhas habilidades de
+              comunicação, criatividade, colaboração e visão de longo prazo.
               <br />
               <br />
-              Tenho 2 anos de experiência com JavaScript, Typescript, NodeJS,
-              TypeORM, Prisma, NestJS e Postgres. <br />
-              <br />
-              Também tenho vasto conhecimento em ExpressJs, Sequelize, MySQL,
-              MongoDB, ReactJS, Html e CSS, Vue, Quasar. <br />
-              <br />
-              Atualmente estou estudando análise de dados com python.
-              <br />
-              <br />
-              Sou muito organizado e dedicado.
-              <br />
+              Atualmente, busco novas oportunidades para aplicar e expandir
+              essas habilidades, continuando meu crescimento profissional.
             </p>
           </div>
         </div>
