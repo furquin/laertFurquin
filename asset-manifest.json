@@ -1,26 +1,24 @@
 {
   "files": {
     "main.css": "./static/css/main.3f2714f8.css",
-    "main.js": "./static/js/main.6dedeaf4.js",
+    "main.js": "./static/js/main.3f0ef23d.js",
     "static/media/agradecimento.gif": "./static/media/agradecimento.374004526c87f5d56dc2.gif",
     "static/media/tunes.png": "./static/media/tunes.fcccfdcd9dcced41510e.png",
     "static/media/solar_system.png": "./static/media/solar_system.b5a20da8eb8ee94401f1.png",
-    "static/media/mongoDB.png": "./static/media/mongoDB.62493aff0e90fab0ac57.png",
+    "static/media/gastos.png": "./static/media/gastos.cce3bd0ad0d0dd67886b.png",
     "static/media/perfil.png": "./static/media/perfil.0b9afe8f491fe0c39f6b.png",
     "static/media/linkedin.png": "./static/media/linkedin.e311296c9f8c2c9f5d9d.png",
     "static/media/wallet.png": "./static/media/wallet.20682368558176d37679.png",
     "static/media/star_wars.png": "./static/media/star_wars.54849084737e5ddf2b56.png",
+    "static/media/pratas.png": "./static/media/pratas.4d32fc7491858e6fa9a8.png",
     "static/media/talker_manager.png": "./static/media/talker_manager.86606d47692ce0b65b0e.png",
     "static/media/blogs_api.png": "./static/media/blogs_api.8a5a08090f3b093410f7.png",
     "static/media/store_manager.png": "./static/media/store_manager.5c4262d8fc5719e5d81a.png",
     "static/media/typeorm.svg": "./static/media/typeorm.033cbe30fd3eeb71169b75ebb33b40e8.svg",
-    "static/media/POO.png": "./static/media/POO.680f46548ec8d9289599.png",
     "static/media/RTL.png": "./static/media/RTL.279f50eede90a5f6f734.png",
     "static/media/cashforce.png": "./static/media/cashforce.4e00f6c609dd88013e65.png",
     "static/media/smith.png": "./static/media/smith.d2dc2e530f70210811b5.png",
-    "static/media/one_for_all.png": "./static/media/one_for_all.fff2f76bb85bd2bbf06a.png",
     "static/media/logoLinkedin.png": "./static/media/logoLinkedin.2d43ffc8f33e83e2d98c.png",
-    "static/media/docker.png": "./static/media/docker.cdaecb5588befd6e3feb.png",
     "static/media/postgres.svg": "./static/media/postgres.40e4ed33e23d7740efc9c788a8e51a47.svg",
     "static/media/mysql.svg": "./static/media/mysql.094d4fc339ba2fcdf18ac905efc1f3ce.svg",
     "static/media/node.svg": "./static/media/node.e7e718538ada32a8dc2b61340a397034.svg",
@@ -31,6 +29,7 @@
     "static/media/git.svg": "./static/media/git.8ee81345da1c18b6cdb4bbe93b464810.svg",
     "static/media/react.svg": "./static/media/react.6c1d44b8c59f0f72ff199a54ceed774c.svg",
     "static/media/prisma.svg": "./static/media/prisma.a9a8baa044474249c0dfe56995a9db83.svg",
+    "static/media/docker.svg": "./static/media/docker.402471a8309d58457b2412d97000f7cb.svg",
     "static/media/express.svg": "./static/media/express.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
     "static/media/vue.svg": "./static/media/vue.2804f99c7d418d3cb767a647f9f56c12.svg",
     "static/media/rabbitmq.svg": "./static/media/rabbitmq.63ab94087152718024f51223a3ab7cc6.svg",
@@ -38,10 +37,10 @@
     "index.html": "./index.html",
     "static/media/adonis.svg": "./static/media/adonis.7acd0a9a2279a8199e32d3821995d6e8.svg",
     "main.3f2714f8.css.map": "./static/css/main.3f2714f8.css.map",
-    "main.6dedeaf4.js.map": "./static/js/main.6dedeaf4.js.map"
+    "main.3f0ef23d.js.map": "./static/js/main.3f0ef23d.js.map"
   },
   "entrypoints": [
     "static/css/main.3f2714f8.css",
-    "static/js/main.6dedeaf4.js"
+    "static/js/main.3f0ef23d.js"
   ]
 }
