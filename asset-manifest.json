@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.3f2714f8.css",
-    "main.js": "./static/js/main.3f0ef23d.js",
+    "main.css": "./static/css/main.a715acaf.css",
+    "main.js": "./static/js/main.93f60bd5.js",
     "static/media/agradecimento.gif": "./static/media/agradecimento.374004526c87f5d56dc2.gif",
     "static/media/tunes.png": "./static/media/tunes.fcccfdcd9dcced41510e.png",
     "static/media/solar_system.png": "./static/media/solar_system.b5a20da8eb8ee94401f1.png",
@@ -36,11 +36,11 @@
     "static/media/js.svg": "./static/media/js.7bb08cdbe94fc2dfc1b51be8c2dae551.svg",
     "index.html": "./index.html",
     "static/media/adonis.svg": "./static/media/adonis.7acd0a9a2279a8199e32d3821995d6e8.svg",
-    "main.3f2714f8.css.map": "./static/css/main.3f2714f8.css.map",
-    "main.3f0ef23d.js.map": "./static/js/main.3f0ef23d.js.map"
+    "main.a715acaf.css.map": "./static/css/main.a715acaf.css.map",
+    "main.93f60bd5.js.map": "./static/js/main.93f60bd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f2714f8.css",
-    "static/js/main.3f0ef23d.js"
+    "static/css/main.a715acaf.css",
+    "static/js/main.93f60bd5.js"
   ]
 }
